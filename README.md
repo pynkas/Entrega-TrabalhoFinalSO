@@ -83,7 +83,7 @@ Exemplo: priority = 1 tem maior prioridade que priority = 5.
 
 <img width="500" alt="cadastro_processo" src="https://github.com/user-attachments/assets/d97445d5-9204-433b-b999-3cc6a260208c" />
 
-<img width="250" alt="processo_adicionado" src="https://github.com/user-attachments/assets/5583232c-4413-4594-80f4-11133e08a3cd" />
+<img width="300" alt="processo_adicionado" src="https://github.com/user-attachments/assets/5583232c-4413-4594-80f4-11133e08a3cd" />
 
 ---
 ## Remoção de processos
@@ -95,7 +95,7 @@ O processo será removido da tabela e não será considerado na próxima simula�
 
 <img width="500" alt="remover_processo" src="https://github.com/user-attachments/assets/a18b5d98-046d-400a-829a-4ffa62d3d398" />
 
-<img width="250" alt="processo_removido" src="https://github.com/user-attachments/assets/95e62e2f-198f-4747-99da-2f1988bfc1c1" />
+<img width="300" alt="processo_removido" src="https://github.com/user-attachments/assets/95e62e2f-198f-4747-99da-2f1988bfc1c1" />
 
 ---
 ## Seleção do algoritmo de escalonamento
@@ -127,7 +127,7 @@ O valor do quantum deve ser um número inteiro maior que **0**.
 
 <img width="500" alt="selecao_algoritmo" src="https://github.com/user-attachments/assets/10a54e3f-eb50-48a4-bed9-0d0d8ca9aa8b" />
 
-<img width="250" alt="selecao_quantum" src="https://github.com/user-attachments/assets/441a7297-2023-40cb-bed9-8557719148d1" />
+<img width="300" alt="selecao_quantum" src="https://github.com/user-attachments/assets/441a7297-2023-40cb-bed9-8557719148d1" />
 
 ---
 ## Executando a simulação
