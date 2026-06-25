@@ -56,7 +56,7 @@ A interface permite:
 - visualizar o gráfico de Gantt (4);
 - consultar as métricas médias da simulação (5).
 
-INTERFACE_GRAFICA
+<img width="500" alt="interface_grafica" src="https://github.com/user-attachments/assets/49eb423b-634a-4a86-b736-f0448782c94b" />
 
 ---
 ## Cadastro de processos
@@ -79,10 +79,11 @@ Os campos devem seguir as seguintes regras:
 - O campo **Priority** deve ser um número inteiro maior ou igual a **0**.
 
 No projeto, a prioridade segue a convenção **Menor valor numérico = maior prioridade**.
-> Exemplo: priority = 1 tem maior prioridade que priority = 5.
+Exemplo: priority = 1 tem maior prioridade que priority = 5.
 
-CADASTRO_PROCESSO
-PROCESSO_ADICIONADO
+<img width="500" alt="cadastro_processo" src="https://github.com/user-attachments/assets/d97445d5-9204-433b-b999-3cc6a260208c" />
+
+<img width="250" alt="processo_adicionado" src="https://github.com/user-attachments/assets/5583232c-4413-4594-80f4-11133e08a3cd" />
 
 ---
 ## Remoção de processos
@@ -92,8 +93,9 @@ Para remover um processo cadastrado:
 
 O processo será removido da tabela e não será considerado na próxima simulação.
 
-REMOVER_PROCESSO
-PROCESSO_REMOVIDO
+<img width="500" alt="remover_processo" src="https://github.com/user-attachments/assets/a18b5d98-046d-400a-829a-4ffa62d3d398" />
+
+<img width="250" alt="processo_removido" src="https://github.com/user-attachments/assets/95e62e2f-198f-4747-99da-2f1988bfc1c1" />
 
 ---
 ## Seleção do algoritmo de escalonamento
@@ -123,8 +125,9 @@ O quantum representa a quantidade máxima de ticks consecutivos que um processo 
 Ao selecionar **Round Robin**, o campo **Quantum** será habilitado.
 O valor do quantum deve ser um número inteiro maior que **0**.
 
-SELECAO_ALGORITMO
-SELECAO_QUANTUM
+<img width="500" alt="selecao_algoritmo" src="https://github.com/user-attachments/assets/10a54e3f-eb50-48a4-bed9-0d0d8ca9aa8b" />
+
+<img width="250" alt="selecao_quantum" src="https://github.com/user-attachments/assets/441a7297-2023-40cb-bed9-8557719148d1" />
 
 ---
 ## Executando a simulação
@@ -165,7 +168,7 @@ Depois:
 2. Clique em **Run**;
 3. Observe o gráfico de Gantt e as métricas exibidas.
 
-EXECUTADO
+<img width="500" alt="executado" src="https://github.com/user-attachments/assets/0a1564e2-f0a3-4bf0-a72b-9adc7bd1878b" />
 
 ---
 ## Interpretação dos resultados
@@ -176,13 +179,13 @@ O eixo inferior representa os ticks da simulação.
 
 ### Avg Turnaround
 Representa o tempo médio entre a chegada dos processos e sua finalização.
-Fórmula utilizada:
-> turnaround_time = finish_time - arrival_time
+Fórmula utilizada: 
+**turnaround_time = finish_time - arrival_time**
 
 ### Avg Waiting
 Representa o tempo médio que os processos passaram aguardando para utilizar a CPU.
-Fórmula utilizada:
-> waiting_time = turnaround_time - burst_time
+Fórmula utilizada: 
+**waiting_time = turnaround_time - burst_time**
 
 ---
 ## Possíveis problemas e soluções
@@ -203,9 +206,6 @@ Tente as seguintes alternativas:
 ### A interface gráfica não abre
 Verifique se o arquivo correto está sendo executado, **gui.py**.
 Também verifique se não há mensagens de erro no terminal.
-
-### O Round Robin mostra erro de quantum
-O campo **Quantum** deve conter um número inteiro maior que **0**.
 
 ### A simulação não executa
 Verifique se pelo menos um processo foi adicionado antes de clicar em **Run**.
